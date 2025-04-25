@@ -1,5 +1,9 @@
 ## 环境配置  
 在安装R包之前需要先安装依赖包：openxlsx、seqinr、plyr、randomForestSRC、glmnet、plsRglm、gbm、caret、mboost、e1071、BART、MASS、snowfall、xgboost、ComplexHeatmap、RColorBrewer、pROC  
+```R
+devtools::install_github("Feng-Rommel/OmniLearn")
+```
+
 ## OmniLearn  
 *OmniLearn* 是一个用户友好的 R 包，专为构建基于 *113 种机器学习算法* 的诊断模型而设计。该包集成了特征选择、模型训练、性能评估和可视化工具，为处理复杂、高维数据集的研究人员提供了一站式解决方案。  
 

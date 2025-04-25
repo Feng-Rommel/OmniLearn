@@ -1,0 +1,22 @@
+Package: OmniLearn
+Title: Package: OmniLearn
+Version: 0.1.0
+Authors@R: 
+    person("Ding", "Huan", , "1365960636@qq.com", role = c("aut", "cre"))
+    person("Wang", "Feng", , "2675646727@qq.com", role = c("aut", "cre"))
+Description: 'OmniLearn' provides a versatile and user-friendly framework to build diagnostic 
+    models using 113 machine learning algorithms. This package integrates feature selection, 
+    model training, evaluation, and visualization tools, ensuring seamless implementation 
+    for researchers working with complex, high-dimensional datasets.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 2.10), openxlsx, seqinr, plyr, randomForestSRC, glmnet,
+        plsRglm, gbm, caret, mboost, e1071, BART, MASS, snowfall,
+        xgboost, ComplexHeatmap, RColorBrewer, pROC
+LazyData: true
+NeedsCompilation: no
+Packaged: 2025-04-25 06:09:35 UTC; wangfeng
+Author: Wang Feng [aut, cre]
+Maintainer: Wang Feng <2675646727@qq.com>

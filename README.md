@@ -62,7 +62,7 @@ min.selected.var = 3 # 设置模型最少纳入的变量数
 methods = methods_use
 ## Pre-training 将各方法所用到的变量筛选过程汇总，以减少计算量
 Variable = colnames(Train_set)
-preTrain.method =  strsplit(methods, "\\+") # 检视所有方法，分析各方法是否需要进行变量预筛选(pre-training)
+preTrain.method =  strsplit(methods, " \\+ ") # 检视所有方法，分析各方法是否需要进行变量预筛选(pre-training)
 preTrain.method = lapply(preTrain.method, function(x) rev(x)[-1]) # 删除各方法用于构建分类模型的算法，保留用于变量筛选的算法
 preTrain.method = unique(unlist(preTrain.method)) # 汇总所有变量筛选算法，去除重复计算
 preTrain.var <- list() # 用于保存各算法筛选的变量

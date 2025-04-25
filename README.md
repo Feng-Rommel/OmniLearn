@@ -193,7 +193,7 @@ pdf(file.path(fig.path, "AUC.pdf"), width = cellwidth * ncol(AUC_mat) + 3, heigh
 draw(hm)
 invisible(dev.off())
 ```
-![alt text](image-5.png)
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image-5.png)
 
 
 

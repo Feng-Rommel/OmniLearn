@@ -21,8 +21,8 @@ Train_class <- read.table("./test_data/Training_class.txt", header = T, sep = "\
 comsam <- intersect(rownames(Train_class), colnames(Train_expr))
 Train_expr <- Train_expr[,comsam]; Train_class <- Train_class[comsam,,drop = F]
 ```
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image-1.png)
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image-2.png)
 
 *验证队列*  
 ```R
@@ -37,8 +37,8 @@ Train_expr <- t(Train_expr[comgene,]) # 输入模型的表达谱行为样本，�
 Test_expr <- t(Test_expr[comgene,]) # 输入模型的表达谱行为样本，列为基因
 ```
 *验证队列的样本信息多了Cohort列，因为可能不止一个验证集，所以使用Cohort来区分不同的验证集*  
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image-3.png)
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image-4.png)
 
 *数据标准化（可选）*
 ```R

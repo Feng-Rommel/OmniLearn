@@ -8,7 +8,7 @@
 ## 查看支持的方法
 print(methods_use[1:10])
 ```
-![alt text]([image.png](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image.png))
+![alt text](https://github.com/Feng-Rommel/OmniLearn/blob/main/fig/image.png)
 
 #### 2、数据处理  
 *训练数据*  
